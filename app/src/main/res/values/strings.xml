@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">STEIN</string>
+    <string name="txtVehicles">Por favor informe o veículo:</string>
+    <string name="type1"><b>C</b>arro</string>
+    <string name="type2"><b>M</b>otocicleta</string>
+    <string name="type3"><b>B</b>icicleta</string>
+    <string name="type4"><b>Ô</b>nibus</string>
+    <string name="type5"><b>C</b>aminhão</string>
+    <string name="type6"><b>V</b>eículos <b>P</b>úblicos</string>
+    <string name="google_directions">AIzaSyDmfvvYXN6RC1o2LjK94MDjLE6Xo0034Qs</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="interdiction_description">Description</string>
+    <string name="interdiction_street_one">Street One</string>
+    <string name="interdiction_street_two">Street Two</string>
+    <string name="interdiction_organization">Organization</string>
+    <string name="btnMaps">Vá para o Mapa</string>
+    <string name="origin">Origem</string>
+    <string name="destination">Destino</string>
+    <string name="splash">STEIN</string>
+</resources>
