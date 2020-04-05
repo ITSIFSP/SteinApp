@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "1086280360529",
-    "firebase_url": "https://itsifsp-48c2c.firebaseio.com",
-    "project_id": "itsifsp-48c2c",
-    "storage_bucket": "itsifsp-48c2c.appspot.com"
+    "project_number": "1076644742720",
+    "firebase_url": "https://intervention-project-b7354.firebaseio.com",
+    "project_id": "intervention-project-b7354",
+    "storage_bucket": "intervention-project-b7354.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1086280360529:android:6f89827fe6602382f80e70",
+        "mobilesdk_app_id": "1:1076644742720:android:313e90c6ca008dd974c1a5",
         "android_client_info": {
           "package_name": "br.com.infotransctd"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1086280360529-jgcr8ps17rkfegalab8hljt0vn2nc9if.apps.googleusercontent.com",
+          "client_id": "1076644742720-94hg6sgp1tbt7kavujub9dsdtj4359gl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDlk181-HEQFZvd2zCqo-9022DkIjoqaks"
+          "current_key": "AIzaSyAuTuqQ-LRBFHa8koZ_fe_YSxvyt9QJ2rc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1086280360529-jgcr8ps17rkfegalab8hljt0vn2nc9if.apps.googleusercontent.com",
+              "client_id": "1076644742720-94hg6sgp1tbt7kavujub9dsdtj4359gl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

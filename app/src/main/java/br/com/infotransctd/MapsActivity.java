@@ -67,7 +67,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private List<MarkerOptions> markerListInterdictions = new ArrayList<>(), markerListRoutes = new ArrayList<>();
     private List<LatLng> interdictionsLatLng = new ArrayList<>(), routesLatLng = new ArrayList<>();
     private Polyline currentPolyline;
-    private String databaseNode = "interdictions";
+    private String databaseNode = "interdictionsTeste";
     private List<Interdiction> interdictions = new ArrayList<>();
     private boolean isInInterval = false;
     private List<Marker> markers = new ArrayList<>();
@@ -100,7 +100,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         isInInterval = false;
                         Interdiction interdiction = new Interdiction();
 
-                        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+                        SimpleDateFormat df = new SimpleDateFormat("dd/mm/yyyy hh:mm a");
                         Date dateNow = Calendar.getInstance().getTime();
                         String beginDate = keyNode.child("beginDate").getValue().toString();
                         String endDate = keyNode.child("endDate").getValue().toString();
@@ -110,14 +110,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         Date dateToday = new Date(df.parse(formatedDate).getTime());
                         String status = keyNode.child("status").getValue().toString();
 
-                        String[] date1 = beginDate.split(" ");
-                        String[] date2 = endDate.split(" ");
-
                         if (status.equals("true")) {
                             if (dateToday.after(dateBegin) && dateToday.before(dateEnd)) {
                                 isInInterval = true;
                             }
-                            if (formatedDate.equals(date1[0]) || formatedDate.equals(date2[0])) {
+                            if (formatedDate.equals(dateBegin) || formatedDate.equals(dateEnd)) {
                                 isInInterval = true;
                             }
                         } else {
@@ -185,7 +182,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-
 
                 onMapReady(map);
             }
