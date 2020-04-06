@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private BroadcastReceiver broadcastReceiver;
     private static int marked = -1;
     private boolean flag = true;
-    private String city = "Novo Horizonte";
+    private String city = "Catanduva";
     private int vehicleMarked = -1;
     private String meanOfTransport = "";
 

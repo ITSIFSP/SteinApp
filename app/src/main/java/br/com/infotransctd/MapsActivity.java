@@ -67,7 +67,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private List<MarkerOptions> markerListInterdictions = new ArrayList<>(), markerListRoutes = new ArrayList<>();
     private List<LatLng> interdictionsLatLng = new ArrayList<>(), routesLatLng = new ArrayList<>();
     private Polyline currentPolyline;
-    private String databaseNode = "interdictionsTeste";
+    private String databaseNode = "interdictions";
     private List<Interdiction> interdictions = new ArrayList<>();
     private boolean isInInterval = false;
     private List<Marker> markers = new ArrayList<>();
